@@ -1,0 +1,141 @@
+html {
+        font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+        font-size: 18px;
+}
+body{margin-left:0; margin-top: 2.667em; margin-bottom: 0; margin-right: 0;}
+article div h1{margin: auto;}
+.u1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #27b06f; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.l1 a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 0.833em 1em;
+	float:left;
+}
+.l1 p{
+	display: block;
+	color: white;
+	text-align: center;
+	margin: 0;
+    padding: 0.833em 1em;
+    float:left;
+}
+.l1 a:hover{
+    background-color: #607d8b;
+}
+
+footer {  
+        margin-top:2em;
+        width: 100%;
+        text-align: center;
+
+       }
+
+footer a {  
+            margin: 1em 1.778em;
+            padding:1.556em;
+            text-decoration: none;
+            color:#27b06f;
+         }
+
+footer a:hover { text-decoration: underline;}
+
+article{overflow: hidden; padding:1em;}
+img{ width: 100%; height: auto;}
+
+article.impar div.imagem { float:right; width: 49%; }
+article.impar div.mensagem { float:left; width: 49%; }
+
+article.par div.imagem { float:left; width: 49%; }
+article.par div.mensagem { float:right; width: 49%; }
+
+
+@media (max-width:1080px)
+{
+	html {
+        font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+        font-size: 24px;
+}
+        .l1 p {
+                display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0.833em 1em;
+	float: none;
+    }
+        
+   .l1 a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 0.833em 1em;
+	float: none;
+}
+ article.impar div.imagem { float:none; width: 100%; }
+ article.impar div.mensagem { float:none; width: 100%; }
+
+ article.par div.imagem { float:none; width: 100%; }
+ article.par div.mensagem { float:none; width: 100%; }
+ 
+ body {
+    margin-left: 0;
+    margin-top: 10.583em;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+@media (max-width:1080px)
+{
+	html {
+        font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+        font-size: 24px;
+}
+        .l1 p {
+                display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0.833em 1em;
+	float: none;
+    }
+        
+   .l1 a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 0.833em 1em;
+	float: none;
+}
+
+footer a{
+    display: block;
+    
+}
+
+ article.impar div.imagem { float:none; width: 100%; }
+ article.impar div.mensagem { float:none; width: 100%; }
+
+ article.par div.imagem { float:none; width: 100%; }
+ article.par div.mensagem { float:none; width: 100%; }
+ 
+ body {
+    margin-left: 0;
+    margin-top: 10.583em;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+}
